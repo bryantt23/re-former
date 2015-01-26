@@ -1,0 +1,23 @@
+<!-- 
+copied & pasted from new file
+ -->
+ 
+ <%= form_for @user do |f| %>
+<p>
+<%= f.label :username %> <br/>
+<%= f.text_field :username %>
+</p>
+<p>
+<%= f.label :email %> <br/>
+
+ <!-- default placeholder value for :email -->
+<%= f.text_field :email, :value => "example@email.com" %>
+</p>
+<p>
+<%= f.label :password %> <br/>
+<%= f.password_field :password %>
+</p>
+<p><%= f.submit %></p>
+ 
+<% end %> 
+ 
