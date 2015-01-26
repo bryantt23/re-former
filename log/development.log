@@ -1005,3 +1005,248 @@ Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 
 
 
 Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:11:26 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (38.0ms)
+Completed 500 Internal Server Error in 85ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (17.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (161.0ms)
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:11:34 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8HlYT6Anaa09VPCA+4MFjB+cRDobeJ38UQAmChakX8pVcCocTP2tkTHNcCOOtCXcPQJUh+pCFSIDFY5qFrkGrQ==", "username"=>"btunbutr", "email"=>"bryantt23@gmail.com", "password"=>"[FILTERED]", "commit"=>"Submit"}
+Completed 400 Bad Request in 3ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  app/controllers/users_controller.rb:30:in `user_params'
+  app/controllers/users_controller.rb:16:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (1343.1ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:13:01 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 44ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (135.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:13:10 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 42ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (27.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (288.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:13:16 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (193.0ms)
+
+
+Started GET "/users/" for ::1 at 2015-01-25 23:13:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (65.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (391.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:13:29 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (91.0ms)
+Completed 500 Internal Server Error in 129ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/re-former/app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/users/new.html.erb:55: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/users/new.html.erb:57: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (134.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:14:48 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 393ms (Views: 389.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 23:14:49 -0800
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:14:55 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lLzt0pB6ul5x1DeJbpaqj//GUPM9icpQyhMlh0KRWNMxtZ+BfKB+Yn1NtyoboYrf3VhATsyzQo6YBo3nQowBtA==", "user"=>{"username"=>"bryantt23", "email"=>"example@email.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "bryantt23"], ["email", "example@email.com"], ["password", "bbbb"], ["created_at", "2015-01-26 07:14:55.488062"], ["updated_at", "2015-01-26 07:14:55.488062"]]
+  [1m[35m (15.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 49ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:14:55 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 289ms (Views: 287.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 23:14:55 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 23:14:56 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 23:14:57 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 23:14:57 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 23:14:57 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:14:57 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 23:14:57 -0800
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:15:28 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RnUNJVf5Qfw/o1wIcYaWMYPm2I0VSvKn1bsOZahRPczjfH92uyOFwDM63KsEsbZhoXjIMORwenmHrqYFqExkqw==", "user"=>{"username"=>"tttt", "email"=>"ttt@email.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "tttt"], ["email", "ttt@email.com"], ["password", "ttttt"], ["created_at", "2015-01-26 07:15:28.351941"], ["updated_at", "2015-01-26 07:15:28.351941"]]
+  [1m[36m (189.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 214ms (ActiveRecord: 192.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:15:28 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 290ms (Views: 289.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:15:29 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 23:15:29 -0800
