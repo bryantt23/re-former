@@ -1,13 +1,13 @@
-<form accept-charset="UTF-8" action="/users" method="post">
+<!-- <form accept-charset="UTF-8" action="/users" method="post">
 	
-	<!-- corrects ActionController::InvalidAuthenticityToken error  -->
+	<!-- corrects ActionController::InvalidAuthenticityToken error  --
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
   <label for="username">Username:</label>
   
-  <!-- <input id="username"  name="username" type="text"><br> -->  
+  <!-- <input id="username"  name="username" type="text"><br> --  
    
-   <!-- submit hash of user parameters -->
+   <!-- submit hash of user parameters --
   <input id="username"  name="user[username]" type="text"><br>
 
   <label for="email">e-mail:</label>
@@ -17,4 +17,20 @@
   <input id="password" name="user[password]" type="password"><br>
 
   <input type="submit" value="Submit">
-</form>
+</form> -->
+
+<!-- Switch to using #form_tag and #*_tag helper methods. 
+	Note that Rails will insert authenticity token automatically. -->
+<%= form_tag("/users", method: "post") do %>
+<%= label_tag(:username, "Username:") %>
+<%= text_field_tag(:username) %><br>
+
+<%= label_tag(:email, "email:") %>
+<%= text_field_tag(:email) %><br>
+
+<%= label_tag(:password, "password:") %>
+<%= password_field_tag(:password) %><br>
+
+<%= submit_tag("Submit") %>
+<% end %>
+

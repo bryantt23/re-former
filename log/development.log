@@ -893,3 +893,115 @@ ActionController::ParameterMissing (param is missing or the value is empty: user
   Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
   Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
   Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (148.0ms)
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:03:08 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#create as HTML
+  Parameters: {"username"=>"bee", "email"=>"bryantt23@gmail.com", "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity
+Completed 400 Bad Request in 16ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  app/controllers/users_controller.rb:22:in `user_params'
+  app/controllers/users_controller.rb:8:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (175.0ms)
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:03:37 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"username"=>"bee", "email"=>"brd23@gmail.com", "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity
+Completed 400 Bad Request in 3ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  app/controllers/users_controller.rb:22:in `user_params'
+  app/controllers/users_controller.rb:8:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (138.0ms)
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:06:47 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"username"=>"bee", "email"=>"brd23@gmail.com", "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "bee"], ["email", "brd23@gmail.com"], ["password", "ddddd"], ["created_at", "2015-01-26 07:06:47.935175"], ["updated_at", "2015-01-26 07:06:47.935175"]]
+  [1m[35m (26.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 131ms (ActiveRecord: 33.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:06:48 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 494ms (Views: 435.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 23:06:48 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 23:06:48 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 23:06:49 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 23:06:49 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 23:06:49 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:06:49 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 23:06:49 -0800
+
+
+Started POST "/users" for ::1 at 2015-01-25 23:06:55 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xtXktFL8/ufQM07vOvnRITbV+V4AeLeIiikvS7YUY1dj3JbnviY629yqzkxPzvFxFEvp4/FCP1bYPIcrtgk6MA==", "username"=>"btunbutr", "email"=>"ddddd", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "btunbutr"], ["email", "ddddd"], ["password", "dddd"], ["created_at", "2015-01-26 07:06:55.942633"], ["updated_at", "2015-01-26 07:06:55.942633"]]
+  [1m[36m (55.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 91ms (ActiveRecord: 61.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-01-25 23:06:56 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 294ms (Views: 293.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 23:06:56 -0800
